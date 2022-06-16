@@ -65,7 +65,7 @@ function Eplisoins0Plus(num) {
 setInterval(() => {
     timer += 0.01
     document.getElementById("ord").innerHTML = Eplisoins0Plus(e0vars) + v(timer, "n");
-    if (timer > 2984 * 3) {
+    if (timer > 2984) {
         e0vars += 1;
         timer = 0;
     }
